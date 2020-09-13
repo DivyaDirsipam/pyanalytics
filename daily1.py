@@ -94,7 +94,8 @@ type(str1)
 print(str1)
 str2="Yash"
 str2.lower()
-dict?
+str2
+
 dir(str)
 str2[1] = 'Z' #immutable , but new string can be assigned
 str2 = 'Dhiraj'
@@ -112,7 +113,8 @@ for i in list1:    print(i , end ='\t')
 for i in list2:    print(i, 'DU' , sep='-' , end ='xxx')
 #a-DU-xxx ; i+sep+end
 for i in list1:    print(i , 'HHHE', sep=' X ' , end ='\t')
-print?
+list1
+
 for i in list1:    print('Dhiraj ', i + 6)
 
 tuple1 = (1, 2, 'a', 'b')
@@ -120,7 +122,7 @@ tuple1
 list5 = ['a',1]
 list5
 for i in tuple1:    print(i, end ='\t')
-range?  # start, stop, step; does not take keyword
+list5  # start, stop, step; does not take keyword
 range(1, 100, 2)  #nothing happens, though it generates 
 for i in range(1, 100, 2):    print(i, end=' ')
 
@@ -158,15 +160,15 @@ np1
 x=np.arange(start=1,stop=1000000,step=2)
 len(x)
 x[1:100]
-x[1:50:10]
+x[1:50:5]
 np
 np.mean(np.arange(1,10000000))
 np1
 type(np1)
-np?
+np1
 #help on numpy 
 dir(np)  #functions available in numpy
-np.mean?  # help on mean function of numpy
+np.mean(1,10000000)  # help on mean function of numpy
 
 np2 = np.array([ 90, 50, 60, 70 ])
 np2
